@@ -1,0 +1,30 @@
+1.Exploratory Data Analysis (EDA) Report
+            Overview of the dataset and user behavior.
+            Key patterns or anomalies in the data.
+2.Churn Definition & Reasoning
+            Propose a clear definition of churn for this e-commerce context (e.g., no purchases or site visits after X days).
+            Explain why you chose this definition and how you handle edge cases or special user types.
+3.Feature Engineering
+            user-level features that capture churn signals from the event stream. This is a key part of the assignment.
+            Possible feature areas include:
+            RFM metrics (Recency, Frequency, Monetary).
+            Session-based metrics (session count, average session duration, bounce rate, etc.).
+            Product/brand preferences (most viewed brand, top categories viewed vs. purchased).
+            Behavioral patterns (view-to-cart ratio, cart-to-purchase ratio, etc.).
+            Document your feature transformation steps comprehensively. You can also read the given research paper to know more about the possible features.
+4.Predictive Modeling
+           Build a churn prediction model using any ML algorithm(s) you find appropriate
+           Describe your model selection process and how you tune hyperparameters.
+           Demonstrate performance metrics (AUC, precision-recall, F1, etc.) to evaluate your model.
+5.Interpretability & Insights
+           Identify which features are most influential in predicting churn (e.g., with feature importance or SHAP values).
+           Provide a rationale for why these features matter.
+           Highlight which products or categories may drive churn and why.
+           Business Recommendations Connect your modeling insights back to real-world strategies for user retention.
+           Suggest possible interventions (personalized offers, product improvements, marketing campaigns, etc.).
+6.Code & Documentation
+          Well-organized, reproducible code in a Jupyter notebook or script.
+          A short write-up summarizing your main findings, methodology, and recommendations.
+7.Reference Integration
+          Briefly mention how concepts or methods from the provided research paper influenced your approach to churn modeling or feature creation.
+
